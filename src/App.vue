@@ -3,7 +3,6 @@
 		<v-navigation-drawer
 			v-model="primaryDrawer.model"
 			temporary
-			
 			overflow
 			clipped
 			app
@@ -44,6 +43,9 @@
 					<v-list-tile-content>
 					<v-list-tile-title>{{ item.title }}</v-list-tile-title>
 					</v-list-tile-content>
+				</v-list-tile>
+				<v-list-tile>
+					<v-switch v-model="dark" primary label="Dark"></v-switch>
 				</v-list-tile>
 			</v-list>
 		</v-navigation-drawer>
