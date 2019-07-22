@@ -1,7 +1,7 @@
 <template>
     <v-layout column>
         <news-feed-card></news-feed-card>
-        <news-feed-card></news-feed-card>
+        <!-- <news-feed-card></news-feed-card> -->
     </v-layout>
 </template>
 <script>

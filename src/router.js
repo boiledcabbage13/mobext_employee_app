@@ -11,10 +11,12 @@ export default new Router({
   	base: process.env.BASE_URL,
 	routes: [
 		{ path: '/login', name: 'login', component: () => import('./views/pages/LoginPage.vue') },
-		{ path: '/', name: 'newsfeed', component: () => import('./views/pages/NewsFeedPage.vue') },
-		{ path: '/about', name: 'about', component: () => import('./views/About.vue') },
-		{ path: '/search', name: 'search', component: () => import('./views/pages/SearchPage.vue') },
-		{ path: '/rewards', name: 'rewards', component: () => import('./views/pages/RewardsPage.vue') },
-		{ path: '/profile', name: 'profile', component: () => import('./views/pages/ProfilePage.vue') }
+		{ path: '/', name: 'testing', component: () => import('./views/MainPage.vue'), redirect: '/home', children: [
+			{ path: '/home', name: 'newsfeed', component: () => import('./views/pages/NewsFeedPage.vue') },
+			{ path: '/search', name: 'search', component: () => import('./views/pages/SearchPage.vue') },
+			{ path: '/rewards', name: 'rewards', component: () => import('./views/pages/RewardsPage.vue') },
+			{ path: '/profile', name: 'profile', component: () => import('./views/pages/ProfilePage.vue') },
+		] },
+
 	]
 })

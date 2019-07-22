@@ -8,8 +8,6 @@
 import MainToolbarTitleAndOptions from './toolbar_subcomponent/MainToolbarTitleAndOptions'
 import MainNavigationDrawer from './toolbar_navigation_drawer/MainNavigationDrawer';
 
-import { TOOLBAR_EVENT_BUS } from '../toolbar/js/ToolbarEventBus';
-
 export default {
     components: {
         MainToolbarTitleAndOptions,

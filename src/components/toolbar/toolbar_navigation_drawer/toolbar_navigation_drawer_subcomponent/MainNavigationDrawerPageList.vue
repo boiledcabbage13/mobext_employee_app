@@ -34,6 +34,7 @@ export default {
 			{ title: 'View Profile', icon: 'account_box', url: '/profile' },
             { title: 'Rewards', icon: 'priority_high', url:'/rewards' },
             { title: 'Search', icon: 'search', url:'/search' },
+            { title: 'Log Out', icon: 'power_settings_new', url:'/login' },
 		]
     })
 }
