@@ -19,7 +19,7 @@ export default {
         MainToolbarOptions
     },
     data : () => ({
-        appTitle : 'Test App',
+        appTitle : 'Test Apps',
         showDrawer: false
     }),
     methods : {
