@@ -27,3 +27,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### My Installation
+```
+1. Install vue cli 3
+2. Install vuetify
