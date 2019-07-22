@@ -12,6 +12,8 @@ export default new Router({
 	routes: [
 		{ path: '/', name: 'newsfeed', component: () => import('./views/pages/NewsFeedPage.vue') },
 		{ path: '/about', name: 'about', component: () => import('./views/About.vue') },
-		{ path: '/search', name: 'search', component: () => import('./views/pages/SearchPage.vue') }
+		{ path: '/search', name: 'search', component: () => import('./views/pages/SearchPage.vue') },
+		{ path: '/rewards', name: 'rewards', component: () => import('./views/pages/RewardsPage.vue') },
+		{ path: '/profile', name: 'profile', component: () => import('./views/pages/ProfilePage.vue') }
 	]
 })

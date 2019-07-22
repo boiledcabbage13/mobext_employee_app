@@ -4,7 +4,7 @@
             @click.stop="toggleNavigationDrawer(showDrawer)"
         >
         </v-toolbar-side-icon>
-        <v-toolbar-title>{{ appTitle }}</v-toolbar-title>
+        <v-toolbar-title @click="GLOBAL_MIXINS_GO_TO_PAGE('/')">{{ appTitle }}</v-toolbar-title>
         <v-spacer></v-spacer>
         <main-toolbar-options></main-toolbar-options>
     </v-toolbar>
