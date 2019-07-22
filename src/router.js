@@ -10,6 +10,7 @@ export default new Router({
   	mode: 'history',
   	base: process.env.BASE_URL,
 	routes: [
+		{ path: '/login', name: 'login', component: () => import('./views/pages/LoginPage.vue') },
 		{ path: '/', name: 'newsfeed', component: () => import('./views/pages/NewsFeedPage.vue') },
 		{ path: '/about', name: 'about', component: () => import('./views/About.vue') },
 		{ path: '/search', name: 'search', component: () => import('./views/pages/SearchPage.vue') },
