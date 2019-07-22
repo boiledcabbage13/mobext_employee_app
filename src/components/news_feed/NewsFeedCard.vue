@@ -10,11 +10,14 @@
             <v-card-title primary-title>
             <div>
                 <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-                <div> {{ card_text }} </div>
+                <div> {{ cardText }} </div>
             </div>
             </v-card-title>
             <v-card-actions>
                 <v-spacer></v-spacer>
+                <v-btn icon>
+                    <v-icon>import_contacts</v-icon>
+                </v-btn>
                 <v-btn icon>
                     <v-icon>share</v-icon>
                 </v-btn>
@@ -28,7 +31,7 @@
 <script>
   export default {
     data : () => ({
-         card_text: 'Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.'
+         cardText: 'Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.'
 
     }),
   }
