@@ -1,5 +1,5 @@
 <template>
-    <v-toolbar app>
+    <v-toolbar app flat>
         <v-toolbar-side-icon
             @click.stop="toggleNavigationDrawer(showDrawer)"
         >
