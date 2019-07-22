@@ -1,8 +1,8 @@
 <template>
-    <v-layout>
+    <span>
         <main-navigation-drawer></main-navigation-drawer>
         <main-toolbar-title-and-options></main-toolbar-title-and-options>
-    </v-layout>
+    </span>
 </template>
 <script>
 import MainToolbarTitleAndOptions from './toolbar_subcomponent/MainToolbarTitleAndOptions'
